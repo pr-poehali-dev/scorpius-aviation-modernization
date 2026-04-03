@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/28c730d4-b6e5-402e-a37e-ec397e7eee0a/files/20a3d079-5ad3-4819-a38e-678d89d88f9a.jpg";
-const LOGO_IMAGE = "https://cdn.poehali.dev/projects/28c730d4-b6e5-402e-a37e-ec397e7eee0a/bucket/fb761a3a-b51c-4a23-ad06-b5869ae051c7.png";
+const LOGO_IMAGE = "https://cdn.poehali.dev/projects/28c730d4-b6e5-402e-a37e-ec397e7eee0a/bucket/4a9df82a-bf9c-409f-bdd8-39b20a16f333.png";
 
 const SERVICES = [
   {
@@ -120,7 +120,8 @@ export default function Index() {
               <img
                 src={LOGO_IMAGE}
                 alt="Scorpius Aviation"
-                className="h-12 w-auto object-contain"
+                className="h-16 w-auto object-contain"
+                style={{ mixBlendMode: "screen" }}
               />
             </a>
 
@@ -602,7 +603,8 @@ export default function Index() {
               <img
                 src={LOGO_IMAGE}
                 alt="Scorpius Aviation"
-                className="h-10 w-auto object-contain opacity-60"
+                className="h-10 w-auto object-contain"
+                style={{ mixBlendMode: "screen", opacity: 0.7 }}
               />
             </div>
 
