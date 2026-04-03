@@ -120,8 +120,8 @@ export default function Index() {
               <img
                 src={LOGO_IMAGE}
                 alt="Scorpius Aviation"
-                className="h-10 w-auto object-contain"
-                style={{ filter: "brightness(1.05)" }}
+                className="h-16 w-auto object-contain"
+                style={{ mixBlendMode: "screen", filter: "brightness(1.4) contrast(1.1)" }}
               />
             </a>
 
@@ -603,7 +603,8 @@ export default function Index() {
               <img
                 src={LOGO_IMAGE}
                 alt="Scorpius Aviation"
-                className="h-8 w-auto object-contain opacity-70"
+                className="h-10 w-auto object-contain"
+                style={{ mixBlendMode: "screen", filter: "brightness(1.2) contrast(1.0) opacity(0.6)" }}
               />
             </div>
 
