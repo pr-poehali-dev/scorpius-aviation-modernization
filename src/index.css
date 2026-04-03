@@ -4,52 +4,55 @@
 
 @layer base {
   :root {
-    --background: 220 30% 6%;
-    --foreground: 40 20% 92%;
+    /* Фон — очень тёмный, с лёгким коричневым оттенком как у тени логотипа */
+    --background: 20 15% 5%;
+    --foreground: 30 20% 90%;
 
-    --card: 220 25% 9%;
-    --card-foreground: 40 20% 92%;
+    --card: 20 12% 8%;
+    --card-foreground: 30 20% 90%;
 
-    --popover: 220 25% 9%;
-    --popover-foreground: 40 20% 92%;
+    --popover: 20 12% 8%;
+    --popover-foreground: 30 20% 90%;
 
-    --primary: 43 65% 62%;
-    --primary-foreground: 220 30% 6%;
+    /* Основной — оранжевый из логотипа */
+    --primary: 25 90% 45%;
+    --primary-foreground: 20 15% 5%;
 
-    --secondary: 220 20% 14%;
-    --secondary-foreground: 40 20% 92%;
+    --secondary: 20 10% 13%;
+    --secondary-foreground: 30 20% 90%;
 
-    --muted: 220 20% 14%;
-    --muted-foreground: 220 10% 55%;
+    --muted: 20 10% 13%;
+    --muted-foreground: 20 8% 50%;
 
-    --accent: 43 65% 62%;
-    --accent-foreground: 220 30% 6%;
+    --accent: 25 90% 45%;
+    --accent-foreground: 20 15% 5%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 40 20% 92%;
+    --destructive-foreground: 30 20% 90%;
 
-    --border: 220 15% 18%;
-    --input: 220 15% 18%;
-    --ring: 43 65% 62%;
+    --border: 20 10% 16%;
+    --input: 20 10% 16%;
+    --ring: 25 90% 45%;
 
     --radius: 0.25rem;
 
-    --gold: 43 65% 62%;
-    --gold-light: 43 75% 72%;
-    --gold-dark: 38 55% 45%;
+    /* Оранжевый из текста логотипа */
+    --gold: 25 90% 45%;
+    --gold-light: 30 95% 55%;
+    --gold-dark: 20 80% 35%;
 
-    --navy: 220 30% 6%;
-    --navy-deep: 222 40% 4%;
-    --navy-mid: 220 25% 10%;
+    /* Бордовый из символа SA */
+    --crimson: 0 75% 35%;
+    --crimson-light: 5 70% 45%;
 
-    --sidebar-background: 220 30% 6%;
-    --sidebar-foreground: 40 20% 92%;
-    --sidebar-primary: 43 65% 62%;
-    --sidebar-primary-foreground: 220 30% 6%;
-    --sidebar-accent: 220 20% 14%;
-    --sidebar-accent-foreground: 40 20% 92%;
-    --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 43 65% 62%;
+    --sidebar-background: 20 15% 5%;
+    --sidebar-foreground: 30 20% 90%;
+    --sidebar-primary: 25 90% 45%;
+    --sidebar-primary-foreground: 20 15% 5%;
+    --sidebar-accent: 20 10% 13%;
+    --sidebar-accent-foreground: 30 20% 90%;
+    --sidebar-border: 20 10% 16%;
+    --sidebar-ring: 25 90% 45%;
   }
 }
 
@@ -64,7 +67,7 @@
 
   body {
     @apply bg-background text-foreground font-sans;
-    background-color: hsl(220, 30%, 6%);
+    background-color: hsl(20, 15%, 5%);
   }
 }
 
@@ -140,7 +143,7 @@
 
   .nav-link {
     @apply text-sm tracking-widest uppercase font-sans font-light transition-colors duration-300;
-    color: hsl(40, 15%, 70%);
+    color: hsl(30, 15%, 65%);
   }
 
   .nav-link:hover {
@@ -156,13 +159,13 @@
 
   .btn-gold:hover {
     background: hsl(var(--gold));
-    color: hsl(220, 30%, 6%);
+    color: hsl(20, 15%, 5%);
   }
 
   .btn-gold-filled {
     @apply px-8 py-3 text-xs tracking-widest uppercase font-sans font-medium transition-all duration-300;
     background: hsl(var(--gold));
-    color: hsl(220, 30%, 6%);
+    color: hsl(20, 15%, 5%);
     border: 1px solid hsl(var(--gold));
   }
 
