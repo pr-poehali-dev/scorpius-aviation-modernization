@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import Icon from "@/components/ui/icon";
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/28c730d4-b6e5-402e-a37e-ec397e7eee0a/files/20a3d079-5ad3-4819-a38e-678d89d88f9a.jpg";
-const LOGO_IMAGE = "https://static.tildacdn.com/tild6331-3963-4433-b031-633638616232/badje.jpg";
+const LOGO_IMAGE = "https://static.tildacdn.com/tild3237-3631-4561-b438-386432396135/android-chrome-192x1.png";
 
 const SERVICES = [
   {
@@ -120,8 +120,7 @@ export default function Index() {
               <img
                 src={LOGO_IMAGE}
                 alt="Scorpius Aviation"
-                className="h-16 w-auto object-contain"
-                style={{ mixBlendMode: "screen", filter: "brightness(1.4) contrast(1.1)" }}
+                className="h-14 w-auto object-contain"
               />
             </a>
 
@@ -603,8 +602,7 @@ export default function Index() {
               <img
                 src={LOGO_IMAGE}
                 alt="Scorpius Aviation"
-                className="h-10 w-auto object-contain"
-                style={{ mixBlendMode: "screen", filter: "brightness(1.2) contrast(1.0) opacity(0.6)" }}
+                className="h-10 w-auto object-contain opacity-60"
               />
             </div>
 
